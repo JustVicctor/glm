@@ -59,7 +59,6 @@ elseif(GLM_ENABLE_CXX_17)
 		message(STATUS "GLM: Build with C++17 features")
 	endif()
 
-<<<<<<< HEAD
 elseif(GLM_ENABLE_CXX_14)
 	set(CMAKE_CXX_STANDARD 14)
 	add_definitions(-DGLM_FORCE_CXX14)
